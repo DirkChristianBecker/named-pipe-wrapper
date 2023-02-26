@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO.Pipes;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading;
-using NamedPipeWrapper.IO;
+﻿using NamedPipeWrapper.IO;
 using NamedPipeWrapper.Threading;
+using System;
 using System.Collections.Concurrent;
+using System.IO.Pipes;
+using System.Runtime.Serialization;
+using System.Threading;
 
 namespace NamedPipeWrapper
 {
